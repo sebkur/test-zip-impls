@@ -12,7 +12,7 @@ import org.junit.Test;
 /**
  * Test case adapted from here: https://bugs.openjdk.java.net/browse/JDK-8143613
  */
-public class TestZip
+public class TestZipInputStream
 {
 
 	@Test(expected = ZipException.class)
