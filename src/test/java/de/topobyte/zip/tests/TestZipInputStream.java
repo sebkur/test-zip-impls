@@ -14,15 +14,14 @@ public class TestZipInputStream
 	@Test(expected = ZipException.class)
 	public void test() throws IOException
 	{
-		InputStream is = Thread.currentThread().getContextClassLoader()
-				.getResourceAsStream("gpg13.odt");
+		InputStream is = Resources.stream("gpg13.odt");
 		ZipInputStream zis = new ZipInputStream(is);
 		while (true) {
 			ZipEntry entry = zis.getNextEntry();
 			if (entry == null) {
 				break;
 			}
-			System.out.println(entry.getName());
+			System.out.println(String.format("entry: '%s'", entry.getName()));
 		}
 	}
 

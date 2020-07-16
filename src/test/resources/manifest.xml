@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest:manifest xmlns:manifest="urn:oasis:names:tc:opendocument:xmlns:manifest:1.0" manifest:version="1.3" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0">
+ <manifest:keyinfo>
+  <manifest:encrypted-key>
+   <manifest:encryption-method manifest:PGPAlgorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+   <manifest:PGPData>
+    <manifest:PGPKeyID>QkI4NzQ1M0Y0N0ZFQkYzOTYwOTkyMTA0OTZCREJBOTMyQTdENEQwNQA=</manifest:PGPKeyID>
+    <manifest:PGPKeyPacket>QkI4NzQ1M0Y0N0ZFQkYzOTYwOTkyMTA0OTZCREJBOTMyQTdENEQwNQA=</manifest:PGPKeyPacket>
+   </manifest:PGPData>
+   <manifest:CipherData>
+    <manifest:CipherValue>hQEMA8kUs8ybYKP7AQf/UZ8e7Ihe/e6N8utZDYZZn9k57WGrebXjJ2aBUvhBKLXggWiwtdWwONo/opwICM/5DLbAPJftVOY0zV6BUfADVBjMLFe5vkNB7jjiQ2/FkBWTa/nfc1DEinz6fuDz8R5YsO/DlSeloNvyMdJCtYxj6+kZtWfVxD4eOLtHwnEyWRBCl6p3mLzCFeBH+fasql6+/Gxekbgo+xrS2NNHBTqm8enrqpREo1C+oTr8pIPJikh9SUtSzoEs5BHS0VGXn59FHNaxzKrA1N6AVVyS7dLiFCkk3amiA2dtc7qG9/yw80Wfukxo47UdRIGwzQ2gyRyKJW/W4MisfieCytZ2YvBdHdJRAW8aC/OCqP91gupaiXVL4Uy4TalvHhbcQmdvDM8DmA68HVnyzMcQfle31klVgisy9faIdUnzeZd3R/VV5FHaJlu2OqZsVCCP2gIs+q+mNPfa</manifest:CipherValue>
+   </manifest:CipherData>
+  </manifest:encrypted-key>
+ </manifest:keyinfo>
+ <manifest:file-entry manifest:full-path="/" manifest:version="1.3" manifest:media-type="application/vnd.oasis.opendocument.text"/>
+ <manifest:file-entry manifest:full-path="styles.xml" manifest:media-type="text/xml" manifest:size="12798">
+  <manifest:encryption-data manifest:checksum-type="urn:oasis:names:tc:opendocument:xmlns:manifest:1.0#sha256-1k" manifest:checksum="8hPWxRBsaHd4p0ioZn0P9bkypayV9nGcY/IlVrxHsaE=">
+   <manifest:algorithm manifest:algorithm-name="http://www.w3.org/2001/04/xmlenc#aes256-cbc" manifest:initialisation-vector="nTq2zzCq+lXFIErclPIj6A=="/>
+   <manifest:key-derivation manifest:key-derivation-name="PGP"/>
+  </manifest:encryption-data>
+ </manifest:file-entry>
+ <manifest:file-entry manifest:full-path="content.xml" manifest:media-type="text/xml" manifest:size="4589">
+  <manifest:encryption-data manifest:checksum-type="urn:oasis:names:tc:opendocument:xmlns:manifest:1.0#sha256-1k" manifest:checksum="vjFnpdNdSqfPoiN1hmp29XvIrWYuXJGokEC/F0aa0XU=">
+   <manifest:algorithm manifest:algorithm-name="http://www.w3.org/2001/04/xmlenc#aes256-cbc" manifest:initialisation-vector="ZhthmGHemPLEzkOlBK24SQ=="/>
+   <manifest:key-derivation manifest:key-derivation-name="PGP"/>
+  </manifest:encryption-data>
+ </manifest:file-entry>
+ <manifest:file-entry manifest:full-path="manifest.rdf" manifest:media-type="application/rdf+xml" manifest:size="2050">
+  <manifest:encryption-data manifest:checksum-type="urn:oasis:names:tc:opendocument:xmlns:manifest:1.0#sha256-1k" manifest:checksum="Q96NrwAlAqMO+AF6r3/SDy1mycIZvBIw9B/N2pjbV98=">
+   <manifest:algorithm manifest:algorithm-name="http://www.w3.org/2001/04/xmlenc#aes256-cbc" manifest:initialisation-vector="6DtY+0g6I9hQuXJaBkp7Yw=="/>
+   <manifest:key-derivation manifest:key-derivation-name="PGP"/>
+  </manifest:encryption-data>
+ </manifest:file-entry>
+ <manifest:file-entry manifest:full-path="Configurations2/" manifest:media-type="application/vnd.sun.xml.ui.configuration"/>
+ <manifest:file-entry manifest:full-path="meta.xml" manifest:media-type="text/xml" manifest:size="2106">
+  <manifest:encryption-data manifest:checksum-type="urn:oasis:names:tc:opendocument:xmlns:manifest:1.0#sha256-1k" manifest:checksum="m5PIbwSSUqh2hMjFIE+XhK/qZkWTNidwd4lUTL7JDts=">
+   <manifest:algorithm manifest:algorithm-name="http://www.w3.org/2001/04/xmlenc#aes256-cbc" manifest:initialisation-vector="5zbxo3SH/8tejLm+iHXFjQ=="/>
+   <manifest:key-derivation manifest:key-derivation-name="PGP"/>
+  </manifest:encryption-data>
+ </manifest:file-entry>
+ <manifest:file-entry manifest:full-path="settings.xml" manifest:media-type="text/xml" manifest:size="12948">
+  <manifest:encryption-data manifest:checksum-type="urn:oasis:names:tc:opendocument:xmlns:manifest:1.0#sha256-1k" manifest:checksum="+WxhA9EzP3VdRY9GLvWL0hEbHfjPy4vy3DpowIzMD+c=">
+   <manifest:algorithm manifest:algorithm-name="http://www.w3.org/2001/04/xmlenc#aes256-cbc" manifest:initialisation-vector="2nvvnzod+jlxhUSLiXeHJA=="/>
+   <manifest:key-derivation manifest:key-derivation-name="PGP"/>
+  </manifest:encryption-data>
+ </manifest:file-entry>
+</manifest:manifest>
