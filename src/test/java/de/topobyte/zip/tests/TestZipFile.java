@@ -31,8 +31,11 @@ public class TestZipFile
 			Enumeration<? extends ZipEntry> entries = zip.entries();
 			while (entries.hasMoreElements()) {
 				ZipEntry entry = entries.nextElement();
-				System.out
-						.println(String.format("entry: '%s'", entry.getName()));
+				long compressedSize = entry.getCompressedSize();
+				long uncompressedSize = entry.getSize();
+				System.out.println(String.format(
+						"entry: '%s' compressed: %d, uncompressed: %d",
+						entry.getName(), compressedSize, uncompressedSize));
 				try (InputStream entryInput = zip.getInputStream(entry)) {
 					ByteArrayOutputStream baos = new ByteArrayOutputStream();
 					IOUtils.copy(entryInput, baos);
