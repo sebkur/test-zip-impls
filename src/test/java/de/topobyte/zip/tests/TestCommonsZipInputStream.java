@@ -88,6 +88,11 @@ public class TestCommonsZipInputStream
 					byte[] data = new byte[(int) uncompressedSize];
 					IOUtils.readFully(zis, data);
 					entryToData.put(entry.getName(), data);
+				} else {
+					// uncompressedSize can be {@link ArchiveEntry#SIZE_UNKNOWN}
+					// == -1
+					byte[] data = IOUtils.toByteArray(zis);
+					entryToData.put(entry.getName(), data);
 				}
 			}
 		}
